@@ -1,97 +1,109 @@
-body{
-    margin:0;
-    padding:0;
-    background:#fff;
-    font-size:12px;
-    overflow:auto
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-size: 12px;
+  overflow: auto;
 }
-#mainDiv{
-    width:100%;
-    height:100%
+#codeWrapper {
+  height: 784px;
 }
-#loveHeart{
-    float:left;
-    width:670px;
-    height:625px
+#content {
+  width: 100%;
+  height: 769px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-#garden{
-    width:100%;
-    height:100%
+#mainDiv {
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
 }
-#elapseClock{
-    text-align:right;
-    font-size:18px;
-    margin-top:10px;
-    margin-bottom:10px
+#loveHeart {
+  width: 375px;
+  height: 694px;
+  margin-left: 24px;
 }
-#words{
-    font-family:"sans-serif";
-    width:500px;
-    font-size:24px;
-    color:#666
+#garden {
+  width: 100%;
+  height: 100%;
 }
-#messages{
-    display:none
+#elapseClock {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#elapseClock .digit{
-    font-family:"digit";
-    font-size:36px
+#words {
+  font-family: "sans-serif";
+  width: 500px;
+  font-size: 24px;
+  color: #666;
 }
-#loveu{
-    padding:5px;
-    font-size:22px;
-    margin-top:80px;
-    margin-right:120px;
-    text-align:right;
-    display:none
+#messages {
+  display: none;
 }
-#loveu .signature{
-    margin-top:10px;
-    font-size:20px;
-    font-style:italic
+#elapseClock .digit {
+  font-family: "digit";
+  font-size: 36px;
 }
-#clickSound{
-    display:none
+#loveu {
+  padding: 5px;
+  font-size: 22px;
+  margin-top: 80px;
+  margin-right: 120px;
+  text-align: right;
+  display: none;
 }
-#code{
-    float:left;
-    width:445px;
-    height:auto;
-    color:#333;
-    font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
-    font-size:16px;
-    font-weight:bolder;
+#loveu .signature {
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: italic;
 }
-#code .string{
-    color:#2a36ff
+#clickSound {
+  display: none;
 }
-#code .keyword{
-    color:#7f0055;
-    font-weight:bold
+#code {
+  float: left;
+  width: 355px;
+  margin: 0 10px;
+  height: auto;
+  color: #333;
+  font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New",
+    "sans-serif";
+  font-size: 12px;
+  font-weight: bolder;
 }
-#code .placeholder{
-    margin-left:15px
+#code .string {
+  color: #2a36ff;
 }
-#code .space{
-    margin-left:7px
+#code .keyword {
+  color: #7f0055;
+  font-weight: bold;
 }
-#code .comments{
-    color:#3f7f5f
+#code .placeholder {
+  margin-left: 15px;
 }
-#copyright{
-    margin-top:0px;
-    text-align:center;
-    width:100%;
-    color:#666
+#code .space {
+  margin-left: 7px;
 }
-#errorMsg{
-    width:100%;
-    text-align:center;
-    font-size:24px;
-    position:absolute;
-    top:100px;
-    left:0
+#code .comments {
+  color: #3f7f5f;
 }
-#copyright a{
-    color:#666
+#copyright {
+  margin-top: 0px;
+  text-align: center;
+  width: 100%;
+  color: #666;
+}
+#errorMsg {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+#copyright a {
+  color: #666;
 }
