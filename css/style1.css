@@ -15,13 +15,10 @@ body {
   overflow-x: hidden;
 }
 #mainDiv {
-  width: 375px;
-  height: 812px;
   overflow: hidden;
 }
 #loveHeart {
-  width: 375px;
-  height: 694px;
+  width: 100%;
   margin-left: 24px;
 }
 #garden {
@@ -65,7 +62,7 @@ body {
 }
 #code {
   float: left;
-  width: 355px;
+  width: 100%;
   margin: 0 10px;
   height: auto;
   color: #333;

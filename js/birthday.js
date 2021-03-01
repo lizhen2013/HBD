@@ -15,6 +15,9 @@ $(function () {
     gardenCtx = gardenCanvas.getContext("2d");
     gardenCtx.globalCompositeOperation = "lighter";
     garden = new Garden(gardenCtx, gardenCanvas);
+	$("#mainDiv").css("width", document.body.clientWidth);
+	$("#mainDiv").css("height", document.body.clientHeight);
+	$("#loveHeart").css("height", document.body.clientHeight - 110);
 
     // renderLoop
     setInterval(function () {
@@ -124,7 +127,7 @@ function adjustWordsPosition() {
 }
 
 function adjustCodePosition() {
-	$('#code').css("margin-top", 48);
+	$('#code').css("margin-top", 96);
 }
 
 function showLoveU() {
